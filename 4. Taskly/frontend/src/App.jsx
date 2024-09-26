@@ -42,7 +42,7 @@ export default function App() {
   return (
     <div className='bg-slate-900 h-screen text-white'>
       <div className='w-fit mx-auto pt-10 space-y-4'>
-        <h1 className='text-center font-bold text-2xl'>Todos</h1>
+        <h1 className='text-center font-bold text-2xl'>Taskly</h1>
         <div className='bg-slate-800 rounded-md  p-8 w-fit mx-auto '>
           <NewTodo onTodo = {handleNewTodo}/>
           <div className="max-h-[360px] overflow-y-auto scrollbar-thin scrollbar-thumb-green-500 scrollbar-track-gray-800">
